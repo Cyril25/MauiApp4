@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp4", "MauiApp4\MauiApp4\MauiApp4.csproj", "{1D025236-F5CF-426F-8208-2D3B3C5184AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp4.Shared", "MauiApp4\MauiApp4.Shared\MauiApp4.Shared.csproj", "{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp4.Web", "MauiApp4\MauiApp4.Web\MauiApp4.Web.csproj", "{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97123103-248E-4FE6-92CC-A56A2ECC08CA}
+	EndGlobalSection
+EndGlobal

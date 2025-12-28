@@ -1,0 +1,19 @@
+﻿@page "/"
+@using global::Shared.Services
+@inject FirebaseService FirebaseService
+
+@code {
+    private List<FirebaseService.WhitelistItem> items = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        items = await FirebaseService.GetWhitelistAsync();
+    }
+}
+
+<ul>
+    @foreach (var item in items)
+    {
+        <li>@item.Email - @item.Role</li>
+    }
+</ul>
