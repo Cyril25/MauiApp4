@@ -1,7 +1,20 @@
 ﻿@page "/"
+@using Shared.Services
+@inject FirebaseService FirebaseService
 
-<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+@code {
+    private List<FirebaseService.WhitelistItem> items = new();
 
-Welcome to your new app.
+    protected override async Task OnInitializedAsync()
+    {
+        items = await FirebaseService.GetWhitelistAsync();
+    }
+}
+
+<ul>
+    @foreach (var item in items)
+    {
+        <li>@item.Email - @item.Role</li>
+    }
+</ul>
