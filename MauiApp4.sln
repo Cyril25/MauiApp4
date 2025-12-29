@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp4.Shared", "MauiApp4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp4.Web", "MauiApp4\MauiApp4.Web\MauiApp4.Web.csproj", "{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp4", "MauiApp4\BlazorApp4\BlazorApp4.csproj", "{597EEA79-60CC-4AA9-AE4A-116B78A1C49D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +19,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D025236-F5CF-426F-8208-2D3B3C5184AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC0ADC4-2D04-4722-8887-A93B3F8E8FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +31,10 @@ Global
 		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C6A8FE-B3D7-4327-B89F-DE2E9C0034C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597EEA79-60CC-4AA9-AE4A-116B78A1C49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597EEA79-60CC-4AA9-AE4A-116B78A1C49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597EEA79-60CC-4AA9-AE4A-116B78A1C49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597EEA79-60CC-4AA9-AE4A-116B78A1C49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
